@@ -1,0 +1,64 @@
+body{
+    max-width: 1200px;
+    margin: auto;
+    padding: 50px;
+    box-sizing: border-box;
+    background-color: floralwhite;
+    text-align: center;
+}
+
+h2 {
+    background: linear-gradient(90deg, floralwhite 20%, darkblue, floralwhite 80%);
+    color:white;
+}
+
+
+input{
+    padding: 10px 10px;
+    width: 40%;
+}
+
+input:focus{
+    outline-style: none;
+}
+
+button{
+    margin-top: 10px;    
+    display: block;
+    padding: 5px;
+    width: 100%;
+    background-color: cornflowerblue;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-size: 17px;
+}
+
+button:hover{
+    box-shadow: 0 0 10px 0 black;
+}
+
+button:focus{
+    outline-style: none;
+}
+
+main{
+
+}
+.cartilla{
+    width: 30%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenedor-around{
+    display: flex;
+    justify-content: space-around;
+}
